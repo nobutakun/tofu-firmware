@@ -1,0 +1,14 @@
+{
+    "name": "audio_processing",
+    "version": "1.0.0",
+    "build": {
+        "srcDir": ".",
+        "includeDir": "library"
+    },
+    "dependencies": {
+         "espressif/esp32-arduino": "^2.0.0",
+        "Seeed-Studio/Seeed_Arduino_Boards": "^2.0.0"
+    },
+    "platforms": ["espressif32"],
+    "frameworks": ["arduino"]
+} 

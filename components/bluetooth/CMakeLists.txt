@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        "bluetooth_manager.cpp"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES 
+        arduino-esp32
+        bt
+) 

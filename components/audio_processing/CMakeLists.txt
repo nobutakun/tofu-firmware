@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS 
+        "i2s_config.cpp"
+        "audio_input.cpp"
+    INCLUDE_DIRS 
+        "."
+        "library"
+    REQUIRES 
+        driver
+        arduino-esp32
+) 
